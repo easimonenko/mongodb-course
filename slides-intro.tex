@@ -1,0 +1,101 @@
+% slides-intro.tex
+% MongoDB Course (in Russian)
+% Author: Evgeny Simonenko <easimonenko@mail.ru>
+% License: CC BY-ND 4.0
+
+\documentclass[11pt]{beamer}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage{graphicx}
+\usetheme{Boadilla}
+
+\begin{document}
+
+\author{Симоненко Е.А. \\ \texttt{easimonenko@mail.ru}}
+\title{MongoDB}
+\subtitle{Введение}
+\date{2018}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Содержание}
+\tableofcontents
+\end{frame}
+
+\section{История MongoDB}
+
+\begin{frame}
+\frametitle{История MongoDB}
+\begin{itemize}
+	\item 2007: компания 10gen из Нью-Йорка начала разрабатывать MongoDB как 
+	продукт PAAS (Platform as a Service).
+	\item 2009: MongoDB выпущена как открытый проект, а компания начала его 
+	поддерживать.
+	\item 2013: компания переименована в MongoDB Inc.
+\end{itemize}
+\end{frame}
+
+\section{MongoDB vs. SQL Databases}
+
+\begin{frame}
+\frametitle{MongoDB vs. SQL Databases}
+\begin{columns}
+	\column{0.5\textwidth}
+	\begin{block}{MongoDB}
+		\begin{itemize}
+			\item схема отсутствует
+			\item язык запросов в форме JavaScript
+		\end{itemize}
+	\end{block}
+	
+	\column{0.5\textwidth}
+	\begin{block}{SQL Databases}
+		\begin{itemize}
+			\item схема обязательна
+			\item стандартизованный SQL
+		\end{itemize}
+	\end{block}
+\end{columns}
+\end{frame}
+
+\section{Возможности и особенности MongoDB}
+
+\begin{frame}
+\frametitle{Возможности MongoDB}
+\begin{itemize}
+	\item документно-ориентированная СУБД
+	\item отсутствие схемы
+	\item встроенная поддержка JavaScript
+	\item свободно-распространяемая (GNU AGPL)
+\end{itemize}
+\end{frame}
+
+\section{Библиография}
+
+\begin{frame}
+\frametitle{Библиография}
+\begin{thebibliography}{1}
+  \bibitem[Бэнкер]{BankerRU} Бэнкер К. MongoDB в действии. -- Пер. с англ. -- 
+  М.: ДМК Пресс, 2014. -- 394 с.
+  \bibitem[Banker]{BankerEN} Banker, Kyle. MongoDB in Action. -- Manning, 2012. 
+  -- 287 pp.
+\end{thebibliography}
+\end{frame}
+
+\section{Ссылки}
+
+\begin{frame}
+\frametitle{Ссылки}
+\begin{itemize}
+	\item https://www.mongodb.com/
+	\item https://github.com/mongodb/mongo
+\end{itemize}
+\end{frame}
+
+\end{document}
